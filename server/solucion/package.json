@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Introducción a Node.js y Express.js - Creación de una API básica.",
+  "author": "Alex Muñoz <https://github.com/alexmf91>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "node --watch ./src/index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
